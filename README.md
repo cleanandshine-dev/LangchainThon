@@ -2,4 +2,4 @@
 [![Python](https://skillicons.dev/icons?i=Python)](https://www.python.org/)
 [![Streamlit](https://skillicons.dev/icons?i=Streamlit)](https://streamlit.io/)
 [![LangChain](https://skillicons.dev/icons?i=LangChain)](https://www.langchain.com/)
-[![OpenAI](https://skillicons.dev/icons?i=OpenAI)](https://openai.com/)
+[![OpenAI](https://skillicons.dev/icons?i=#412991)](https://openai.com/)
