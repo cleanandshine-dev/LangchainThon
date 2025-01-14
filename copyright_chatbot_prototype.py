@@ -2,7 +2,7 @@ import os
 import uuid
 import streamlit as st
 
-from langchain_community.document_loaders import PyPDFLoader, DirectoryLoader, UnstructuredFileLoader
+from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain_chroma import Chroma
@@ -12,33 +12,26 @@ from langchain.chains import create_history_aware_retriever, create_retrieval_ch
 from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_community.chat_message_histories.streamlit import StreamlitChatMessageHistory
 
-
 import chromadb
 chromadb.api.client.SharedSystemClient.clear_system_cache()
 
-#오픈AI API 키 설정
-os.environ["OPENAI_API_KEY"] = YOUR_OPEN_API_KEY
-
+os.environ['OPENAI_API_KEY'] = 'YOUR_API_KEY'
 
 @st.cache_resource
 def load_and_split_pdf(file_path):
   loader = PyPDFLoader(file_path)
   return loader.load_and_split()
 
-
 @st.cache_resource
 def create_vector_store(_docs):
   text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
   split_docs = text_splitter.split_documents(_docs)
-  persist_directory = "./chroma_db_test_project"
-  vectorstore = Chroma.from_documents(split_docs, 
-                                      OpenAIEmbeddings(model='text-embedding-3-large'),
-                                      persist_directory=persist_directory)
+  vectorstore = Chroma.from_documents(split_docs, OpenAIEmbeddings(model='text-embedding-3-large'))
   return vectorstore
 
 @st.cache_resource
 def get_vector_store():
-  persist_directory = './vectordb/large_recursive_500_0'
+  persist_directory = './chroma_db_test_project'
   if os.path.exists(persist_directory):
     return Chroma(
       persist_directory=persist_directory,
@@ -49,8 +42,6 @@ def get_vector_store():
   
 @st.cache_resource
 def initialize_components(selected_model):
-  # loader_directory = DirectoryLoader(r"../data/", glob="*.pdf", loader_kwargs={"mode": "paged"} )
-  # _docs = loader_directory.load()
   vectorstore = get_vector_store()
   retriever = vectorstore.as_retriever()
 
@@ -88,7 +79,7 @@ def initialize_components(selected_model):
   rag_chain = create = create_retrieval_chain(history_aware_retriever, question_answer_chain)
   return rag_chain
 
-st.header('저작권 지킴이')
+st.header('이의없음!')
 if 'messages' not in st.session_state:
   st.session_state['messages'] = [{'role':'assistant', 'content':'저작권법에 대해 물어보세요!'}]
 with st.sidebar:
