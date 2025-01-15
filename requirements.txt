@@ -1,26 +1,18 @@
 langchain
 langchain_community
 langchain_openai
-langchain-anthropic
 langchain-text-splitters
 langchain-chroma
-langchain-ollama
 langchain-experimental
+langchain-core
 
-anthropic
 openai
+chromadb
 
 nltk==3.8.1
-pypdfium2
-pypdf
-rapidocr-onnxruntime
 sentence-transformers
 unstructured
 unstructured[pdf]
 lark
 
-python-pptx
-
-faiss-cpu
-grandalf 
 streamlit
