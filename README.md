@@ -5,6 +5,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=Streamlit&logoColor=white)
 <br>
 <br>
+<br>
 
 
 ## 🌐 Project Background
@@ -15,8 +16,8 @@
       - 복잡한 법률 용어 - 일반인이 이해하기 어려운 복잡한 법률 용어들이 많음.
       - 다양한 권리 유형 - 저작재산권, 저작인격권, 복제권 등 다양한 권리 유형이 존재하여 각 권리의 범위를 이해하기 어려움.
   - **저작권 침해 판단의 어려움**
-      - 실질적 유사성: 저작권 침해 여부를 판단할 때 '실질적 유사성'이라는 모호한 기준을 적용하여 판단이 어려움.
-      - 공정 이용의 모호성: 교육 목적이나 인용 등 경계가 명확하지 않아 혼란을 줄 수 있음.
+      - 실질적 유사성 - 저작권 침해 여부를 판단할 때 '실질적 유사성'이라는 모호한 기준을 적용하여 판단이 어려움.
+      - 공정 이용의 모호성 - 교육 목적이나 인용 등 경계가 명확하지 않아 혼란을 줄 수 있음.
 <br>
 
 ### 🤦🏻‍♀️ 기존방법의 한계
@@ -31,16 +32,19 @@
 
 <br>
 <br>
+<br>
 
 
 ## 💽 Data 
 ![](image/copyright_reference.png)
 <br>
 <br>
+<br>
 
 
 ## 🤖 Structure Overview
 ![](image/structure_overview.png)
+<br>
 <br>
 <br>
 
@@ -57,7 +61,8 @@
 3️⃣ 사례에 대한 질문과 해외 저작권법에 대한 질문을 하여 RAG를 통해 검색이 제대로 이루어졌는지 확인  
 <br>
 <br>
-  
+<br>
+
 
 ## 📺 Demonstration  
 - Validation에서 정한 방법을 바탕으로 3분 이내의 영상 제작  
@@ -68,6 +73,7 @@
       ☑️ 법적근거를 제시하여 답변  
       ☑️ 사례를 요구하는 경우 ⇒ 관련 판례를 제시하여 답변 구성  
       ☑️ 해외(미국,일본)의 저작권법에 해당하는 경우 ⇒ 해외 저작권법을 제시하여 답변 구성  
+<br>
 <br>
 <br>
 
@@ -83,12 +89,14 @@
   ⇒ Agent를 도입하고 추론 과정을 추가하면 원하는 답변을 더 잘 얻을 수 있을 것으로 예상
 <br>
 <br>
+<br>
 
 
 ## 💻 Code References
 - ![이토록 쉬운 RAG 시스템 구축을 위한 랭체인 실전 가이드](https://www.yes24.com/product/goods/136548871)
 - ![Langchain뿌시기](https://www.youtube.com/playlist?list=PLQIgLu3Wf-q_Ne8vv-ZXuJ4mztHJaQb_v)
 - ![Langchain-RAG](https://github.com/Kane0002/Langchain-RAG)
+<br>
 <br>
 <br>
 
