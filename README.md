@@ -37,6 +37,9 @@
 
 ## 💽 Data 
 ![](image/copyright_reference.png)
+- 출처: [국내 저작권 법령](https://www.copyright.or.kr/information-materials/new-law-precedent/list.do)
+- 출처: [해외 저작권 법령](https://world.moleg.go.kr/web/wli/nationListPage.do)
+- 출처: [국내 판례](https://glaw.scourt.go.kr/wsjo/intesrch/sjo022.do)
 <br>
 <br>
 <br>
@@ -50,7 +53,7 @@
 
 
 ## 🔍 Validation
-1️⃣ 한국저작권협의회(링크)에 있는 2023저작권상담사례집에 있는 질문을 발췌  
+1️⃣ [한국저작권협의회](https://www.copyright.or.kr/information-materials/publication/research-report/view.do?brdctsno=52595&pageIndex=1)에 있는 2023저작권상담사례집에 있는 질문을 발췌  
 ```
 📄발췌한 질문리스트
 1. CCTV나 블랙박스 영상도 저작물인가요?
