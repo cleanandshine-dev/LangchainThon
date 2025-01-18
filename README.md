@@ -11,11 +11,11 @@
 ## 🌐 Project Background
 ### 🖊️ 문제정의
 - 일반 사용자들이 저작권법에 접근하기 어렵다는 문제점이 존재
-  - **법적 지식 접근의 어려움**
+  - **법적 지식 접근의 어려움**  
       - 빈번한 개정 - 기술 발전에 따라 새로운 형태의 저작물이 등장하고 사회변화에 따라 법이 지속적으로 개정됨.
       - 복잡한 법률 용어 - 일반인이 이해하기 어려운 복잡한 법률 용어들이 많음.
       - 다양한 권리 유형 - 저작재산권, 저작인격권, 복제권 등 다양한 권리 유형이 존재하여 각 권리의 범위를 이해하기 어려움.
-  - **저작권 침해 판단의 어려움**
+  - **저작권 침해 판단의 어려움**  
       - 실질적 유사성 - 저작권 침해 여부를 판단할 때 '실질적 유사성'이라는 모호한 기준을 적용하여 판단이 어려움.
       - 공정 이용의 모호성 - 교육 목적이나 인용 등 경계가 명확하지 않아 혼란을 줄 수 있음.
 <br>
@@ -93,9 +93,9 @@
 
 
 ## 💻 Code References
-- ![이토록 쉬운 RAG 시스템 구축을 위한 랭체인 실전 가이드](https://www.yes24.com/product/goods/136548871)
-- ![Langchain뿌시기](https://www.youtube.com/playlist?list=PLQIgLu3Wf-q_Ne8vv-ZXuJ4mztHJaQb_v)
-- ![Langchain-RAG](https://github.com/Kane0002/Langchain-RAG)
+- [이토록 쉬운 RAG 시스템 구축을 위한 랭체인 실전 가이드](https://www.yes24.com/product/goods/136548871)
+- [Langchain뿌시기](https://www.youtube.com/playlist?list=PLQIgLu3Wf-q_Ne8vv-ZXuJ4mztHJaQb_v)
+- [Langchain-RAG](https://github.com/Kane0002/Langchain-RAG)
 <br>
 <br>
 <br>
