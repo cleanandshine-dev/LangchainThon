@@ -75,7 +75,8 @@
   
       ☑️ 법적근거를 제시하여 답변  
       ☑️ 사례를 요구하는 경우 ⇒ 관련 판례를 제시하여 답변 구성  
-      ☑️ 해외(미국,일본)의 저작권법에 해당하는 경우 ⇒ 해외 저작권법을 제시하여 답변 구성  
+      ☑️ 해외(미국,일본)의 저작권법에 해당하는 경우 ⇒ 해외 저작권법을 제시하여 답변 구성
+[![jvtmoSE75LE](https://img.youtube.com/vi/jvtmoSE75LE/0.jpg)](https://www.youtube.com/watch?v=jvtmoSE75LE)
 <br>
 <br>
 <br>
